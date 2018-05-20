@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/beijing">
+
+    <Button
+        android:id="@+id/denglu"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_border1"
+        android:text="登录"
+        android:textSize="20dp"
+        android:textColor="#ffffffff"
+        android:layout_above="@+id/zhuce"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="false"
+        android:allowUndo="false"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="false" />
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_border1"
+        android:text="注册"
+        android:textSize="20dp"
+        android:textColor="#ffffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"/>
+</RelativeLayout>
